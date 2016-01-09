@@ -8,11 +8,11 @@
     <ProjectGuid>8edf3404-0995-4804-ad53-6622a521a765</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>UnknownArtifactPlotter</RootNamespace>
-    <AssemblyName>UnknownArtifactPlotter</AssemblyName>
+    <AssemblyName>EDStarMap3DPlotter</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>UnknownArtifactPlotter</Name>
+    <Name>EDStarMap3DPlotter</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\UnknownArtifactPlotter.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\EDStarMap3DPlotter.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\UnknownArtifactPlotter.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\EDStarMap3DPlotter.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
@@ -49,9 +49,10 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="SystemsFinder.fsx" />
+    <None Include="SampleInput.fsx" />
     <None Include="Plotter.fsx" />
-    <None Include="Old_plotter.fsx" />
-    <None Include="coordinates.fsx" />
+    <None Include="Test_plotly.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

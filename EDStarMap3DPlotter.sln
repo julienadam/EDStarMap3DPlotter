@@ -3,24 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnknownArtifactPlotter", "UnknownArtifactPlotter.fsproj", "{8EDF3404-0995-4804-AD53-6622A521A765}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A2DB99C5-6096-434F-BB3E-110B73F1F3EF}"
-	ProjectSection(SolutionItems) = preProject
-		Data\commodities.json = Data\commodities.json
-		Data\input_sample.csv = Data\input_sample.csv
-		Data\listings.csv = Data\listings.csv
-		Data\modules.json = Data\modules.json
-		Data\stations.json = Data\stations.json
-		Data\systems.json = Data\systems.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fslab", "fslab", "{66F5CEC5-B289-4342-BEBF-D00A6D9EFA0D}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FsLab\FsLab.fsx = packages\FsLab\FsLab.fsx
-	EndProjectSection
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EDStarMap3DPlotter", "EDStarMap3DPlotter.fsproj", "{8EDF3404-0995-4804-AD53-6622A521A765}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F09C32F2-3DD7-4E73-833A-9F55466E56B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "paket", "paket", "{0BC155C5-D38D-493A-AEE4-FD8A695EA298}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
 		paket.lock = paket.lock
@@ -40,5 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BC155C5-D38D-493A-AEE4-FD8A695EA298} = {F09C32F2-3DD7-4E73-833A-9F55466E56B5}
 	EndGlobalSection
 EndGlobal

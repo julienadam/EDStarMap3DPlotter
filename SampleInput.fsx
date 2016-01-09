@@ -1,5 +1,9 @@
-﻿module Coordinates
+﻿module Input
 
+let closed = ["Harma"; "Warkushanui"; "49 Arietis"; "64 Arietis"; "Arawere"; "Pic Tok"; "Rhea"]
+let affected = ["Harma"; "Warkushanui"; "Varati"; "Ngobe"; "Iapodes"; "Sol"; "Diaguandri"; "Nganji"; "Peregrina"]
+let pleiades = ["Alcyone"; "Atlas"; "Electra"; "Maia"; "Merope"; "Taygeta"; "Pleione"; "Celaeno"; "Sterope II"; "Asterope" ]
+let otherPleiades = [ "HIP 17862"; "HIP 17892"; "HR 1172"; "HR 1183"; "HR 1185"; "18 Tauri" ]
 let shell = 
     [ "27 Arietis"; "Aries Dark Region CL-Y d25"; "Aries Dark Region FW-W d1-78"; "Aries Dark Region GR-W d1-31"; 
       "Aries Dark Region GW-W d1-52"; "Aries Dark Region ID-R b5-0"; "Aries Dark Region IS-T b3-0"; 
@@ -42,3 +46,16 @@ let shell =
       "Taurus Dark Region OX-U b2-0"; "Taurus Dark Region PJ-P b6-0"; "Taurus Dark Region PS-U b2-2"; 
       "Taurus Dark Region SN-T b3-1"; "Taurus Dark Region UI-T b3-2"; "Taurus Dark Region YO-R b4-1"; "Wolf 221"; 
       "Wredguia VB-W c15-4"; "Wregoe LH-Q b32-4"; "Wregoe ON-O b33-3" ]
+
+let title = "Elite: Dangerous - Unknown artifacts facts"
+
+let graphs =[
+    "UA shell", shell, "rgba(0, 255, 0, 1.0)"
+    "Stations closed by UA", closed, "rgba(255, 0, 0, 1.0)"
+    "Stations affected by UA", affected, "rgba(255, 255, 0, 1.0)"
+    "Main Pleiades stars", pleiades, "rgba(0, 0, 255, 1.0)"
+    "Other pleiades nebula stars", otherPleiades, "rgba(0, 0, 255, 0.5)"
+    ]
+
+let route = ["Sol"; "Merope"]
+
