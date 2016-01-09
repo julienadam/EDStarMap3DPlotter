@@ -1,0 +1,7 @@
+packages
+*.suo
+.DS_Store
+.paket/paket.exe
+bin
+obj
+Data

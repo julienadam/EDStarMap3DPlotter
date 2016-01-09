@@ -1,0 +1,11 @@
+source https://nuget.org/api/v2
+
+nuget XPlot.Plotly
+nuget Newtonsoft.Json
+nuget FSharp.Data
+nuget FSharp.Data.TypeProviders
+
+http https://eddb.io/archive/v4/systems.json Data/systems.json
+http https://eddb.io/archive/v4/stations.json Data/stations.json
+http https://eddb.io/archive/v4/commodities.json Data/commodities.json
+http https://eddb.io/archive/v4/modules.json Data/modules.json

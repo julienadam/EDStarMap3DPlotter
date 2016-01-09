@@ -1,0 +1,21 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    FSharp.Core.3 (0.0.2)
+    FSharp.Data (2.2.5)
+      Zlib.Portable (>= 1.10.0) - framework: portable-net40+sl50+wp80+win80
+    FSharp.Data.TypeProviders (0.0.1)
+      FSharp.Core.3 (>= 0.0.2)
+    Http.fs (1.5.1)
+    Newtonsoft.Json (8.0.2)
+    XPlot.Plotly (1.3.0)
+      Http.fs
+      Newtonsoft.Json
+    Zlib.Portable (1.11.0) - framework: portable-net40+sl50+wp80+win80
+HTTP
+  remote: https://eddb.io
+  specs:
+    Data/commodities.json (/archive/v4/commodities.json)
+    Data/modules.json (/archive/v4/modules.json)
+    Data/stations.json (/archive/v4/stations.json)
+    Data/systems.json (/archive/v4/systems.json)
