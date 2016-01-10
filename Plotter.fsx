@@ -1,6 +1,6 @@
 ﻿module Plotter
 
-#r "packages/XPlot.Plotly/lib/net45/Xplot.plotly.dll"
+#r "bin/debug/EDStarMap3DPlotter.exe"
 #load "SampleInput.fsx"
 #load "SystemsFinder.fsx"
 

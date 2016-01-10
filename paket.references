@@ -1,4 +1,6 @@
 FSharp.Data
 FSharp.Data.TypeProviders
-XPlot.Plotly
-Newtonsoft.Json 
+Newtonsoft.Json
+
+File:Graph.fs Plotly
+File:Main.fs Plotly
