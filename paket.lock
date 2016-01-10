@@ -9,10 +9,10 @@ NUGET
     Newtonsoft.Json (8.0.2)
     Zlib.Portable (1.11.0) - framework: portable-net40+sl50+wp80+win80
 GITHUB
-  remote: julienadam/XPlot
+  remote: TahaHachana/XPlot
   specs:
-    src/XPlot.Plotly/Graph.fs (f0e80e216c1e18f129c77e005b7c34a1d0c13c5a)
-    src/XPlot.Plotly/Main.fs (f0e80e216c1e18f129c77e005b7c34a1d0c13c5a)
+    src/XPlot.Plotly/Graph.fs (99589983c95b444948e22e57b851696a778b160d)
+    src/XPlot.Plotly/Main.fs (99589983c95b444948e22e57b851696a778b160d)
 HTTP
   remote: https://eddb.io
   specs:

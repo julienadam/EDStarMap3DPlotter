@@ -38,11 +38,11 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="paket-files\julienadam\XPlot\src\XPlot.Plotly\Graph.fs">
+    <Compile Include="paket-files\TahaHachana\XPlot\src\XPlot.Plotly\Graph.fs">
       <Paket>True</Paket>
       <Link>Plotly/Graph.fs</Link>
     </Compile>
-    <Compile Include="paket-files\julienadam\XPlot\src\XPlot.Plotly\Main.fs">
+    <Compile Include="paket-files\TahaHachana\XPlot\src\XPlot.Plotly\Main.fs">
       <Paket>True</Paket>
       <Link>Plotly/Main.fs</Link>
     </Compile>
